@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/home/nlopez/GitHub/mint-NFT/contracts/NicNFT.sol": {
-      "lastModificationDate": 1754835432505,
-      "contentHash": "5d4869053942343a98a9fbe6ad1f6129",
+      "lastModificationDate": 1754867147430,
+      "contentHash": "473e5bf8b8615694756d3be54de68467",
       "sourceName": "contracts/NicNFT.sol",
       "solcConfig": {
         "version": "0.8.28",
@@ -38,45 +38,7 @@
         "^0.8.28"
       ],
       "artifacts": [
-        "BasicNFT"
-      ]
-    },
-    "/home/nlopez/GitHub/mint-NFT/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
-      "lastModificationDate": 1754832261867,
-      "contentHash": "d3c790edc9ccf808a17c5a6cd13614fd",
-      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
-      "solcConfig": {
-        "version": "0.8.28",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../utils/Context.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.20"
-      ],
-      "artifacts": [
-        "Ownable"
+        "NicNFT"
       ]
     },
     "/home/nlopez/GitHub/mint-NFT/node_modules/@openzeppelin/contracts/token/ERC721/ERC721.sol": {
@@ -165,6 +127,44 @@
         "ERC721URIStorage"
       ]
     },
+    "/home/nlopez/GitHub/mint-NFT/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
+      "lastModificationDate": 1754832261867,
+      "contentHash": "d3c790edc9ccf808a17c5a6cd13614fd",
+      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
     "/home/nlopez/GitHub/mint-NFT/node_modules/@openzeppelin/contracts/utils/Context.sol": {
       "lastModificationDate": 1754832261853,
       "contentHash": "67bfbc07588eb8683b3fd8f6f909563e",
@@ -199,6 +199,44 @@
       ],
       "artifacts": [
         "Context"
+      ]
+    },
+    "/home/nlopez/GitHub/mint-NFT/node_modules/@openzeppelin/contracts/interfaces/draft-IERC6093.sol": {
+      "lastModificationDate": 1754832261856,
+      "contentHash": "5041977bbe908de2e6ed0270447f79ad",
+      "sourceName": "@openzeppelin/contracts/interfaces/draft-IERC6093.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.4"
+      ],
+      "artifacts": [
+        "IERC1155Errors",
+        "IERC20Errors",
+        "IERC721Errors"
       ]
     },
     "/home/nlopez/GitHub/mint-NFT/node_modules/@openzeppelin/contracts/utils/Strings.sol": {
@@ -239,44 +277,6 @@
       ],
       "artifacts": [
         "Strings"
-      ]
-    },
-    "/home/nlopez/GitHub/mint-NFT/node_modules/@openzeppelin/contracts/interfaces/draft-IERC6093.sol": {
-      "lastModificationDate": 1754832261856,
-      "contentHash": "5041977bbe908de2e6ed0270447f79ad",
-      "sourceName": "@openzeppelin/contracts/interfaces/draft-IERC6093.sol",
-      "solcConfig": {
-        "version": "0.8.28",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.8.4"
-      ],
-      "artifacts": [
-        "IERC1155Errors",
-        "IERC20Errors",
-        "IERC721Errors"
       ]
     },
     "/home/nlopez/GitHub/mint-NFT/node_modules/@openzeppelin/contracts/utils/introspection/ERC165.sol": {
@@ -432,10 +432,10 @@
         "ERC721Utils"
       ]
     },
-    "/home/nlopez/GitHub/mint-NFT/node_modules/@openzeppelin/contracts/utils/math/SignedMath.sol": {
-      "lastModificationDate": 1754832261868,
-      "contentHash": "ae3528afb8bdb0a7dcfba5b115ee8074",
-      "sourceName": "@openzeppelin/contracts/utils/math/SignedMath.sol",
+    "/home/nlopez/GitHub/mint-NFT/node_modules/@openzeppelin/contracts/utils/math/Math.sol": {
+      "lastModificationDate": 1754832261867,
+      "contentHash": "5ec781e33d3a9ac91ffdc83d94420412",
+      "sourceName": "@openzeppelin/contracts/utils/math/Math.sol",
       "solcConfig": {
         "version": "0.8.28",
         "settings": {
@@ -461,13 +461,14 @@
         }
       },
       "imports": [
+        "../Panic.sol",
         "./SafeCast.sol"
       ],
       "versionPragmas": [
         "^0.8.20"
       ],
       "artifacts": [
-        "SignedMath"
+        "Math"
       ]
     },
     "/home/nlopez/GitHub/mint-NFT/node_modules/@openzeppelin/contracts/utils/math/SafeCast.sol": {
@@ -506,10 +507,10 @@
         "SafeCast"
       ]
     },
-    "/home/nlopez/GitHub/mint-NFT/node_modules/@openzeppelin/contracts/utils/math/Math.sol": {
-      "lastModificationDate": 1754832261867,
-      "contentHash": "5ec781e33d3a9ac91ffdc83d94420412",
-      "sourceName": "@openzeppelin/contracts/utils/math/Math.sol",
+    "/home/nlopez/GitHub/mint-NFT/node_modules/@openzeppelin/contracts/utils/math/SignedMath.sol": {
+      "lastModificationDate": 1754832261868,
+      "contentHash": "ae3528afb8bdb0a7dcfba5b115ee8074",
+      "sourceName": "@openzeppelin/contracts/utils/math/SignedMath.sol",
       "solcConfig": {
         "version": "0.8.28",
         "settings": {
@@ -535,14 +536,13 @@
         }
       },
       "imports": [
-        "../Panic.sol",
         "./SafeCast.sol"
       ],
       "versionPragmas": [
         "^0.8.20"
       ],
       "artifacts": [
-        "Math"
+        "SignedMath"
       ]
     },
     "/home/nlopez/GitHub/mint-NFT/node_modules/@openzeppelin/contracts/utils/Panic.sol": {
@@ -653,42 +653,6 @@
         "IERC721Receiver"
       ]
     },
-    "/home/nlopez/GitHub/mint-NFT/node_modules/@openzeppelin/contracts/interfaces/IERC165.sol": {
-      "lastModificationDate": 1754832261864,
-      "contentHash": "947853028399b7de34bcc3704ee06e99",
-      "sourceName": "@openzeppelin/contracts/interfaces/IERC165.sol",
-      "solcConfig": {
-        "version": "0.8.28",
-        "settings": {
-          "evmVersion": "paris",
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../utils/introspection/IERC165.sol"
-      ],
-      "versionPragmas": [
-        ">=0.4.16"
-      ],
-      "artifacts": []
-    },
     "/home/nlopez/GitHub/mint-NFT/node_modules/@openzeppelin/contracts/interfaces/IERC4906.sol": {
       "lastModificationDate": 1754832261866,
       "contentHash": "4386d2e9b1578157802062e156bd9ae1",
@@ -727,6 +691,42 @@
       "artifacts": [
         "IERC4906"
       ]
+    },
+    "/home/nlopez/GitHub/mint-NFT/node_modules/@openzeppelin/contracts/interfaces/IERC165.sol": {
+      "lastModificationDate": 1754832261864,
+      "contentHash": "947853028399b7de34bcc3704ee06e99",
+      "sourceName": "@openzeppelin/contracts/interfaces/IERC165.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        ">=0.4.16"
+      ],
+      "artifacts": []
     },
     "/home/nlopez/GitHub/mint-NFT/node_modules/@openzeppelin/contracts/interfaces/IERC721.sol": {
       "lastModificationDate": 1754832261866,
