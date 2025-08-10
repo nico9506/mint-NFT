@@ -1,0 +1,36 @@
+{
+  "name": "mint-nft",
+  "version": "1.0.0",
+  "description": "Hardhat repo to mint a NFT and send it to public addresses",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nico9506/mint-NFT.git"
+  },
+  "keywords": [
+    "hardhat",
+    "NFT",
+    "sepolia",
+    "testnet",
+    "ERC-721"
+  ],
+  "author": "Nicolas Lopez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nico9506/mint-NFT/issues"
+  },
+  "homepage": "https://github.com/nico9506/mint-NFT#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "hardhat": "^2.26.2"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.4.0",
+    "dotenv": "^17.2.1",
+    "ipfs-core": "^0.18.1",
+    "ipfs-http-client": "^60.0.1"
+  }
+}
